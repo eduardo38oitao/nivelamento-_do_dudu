@@ -38,4 +38,60 @@ console.log(c,d);
 let verificacao= 1> 2;
 console.log(verificacao);
 
-//8.
+//8.crie duas variaveis com algum valor e exiba a contetanação
+
+let oaoa = 1010;
+let adas = 2020;
+console.log(`teste ${oaoa} ${adas}`);
+
+//9.descubra o tipo de uma variavel
+
+let tipovariavel = 1;
+console.log(typeof tipovariavel);
+
+//10.converta numero para string.
+let convertao = 10
+console.log(typeof String(convertao))
+
+//11. string para numero
+let text = "123";
+console.log(typeof Number(text));
+
+//12.laços de repeticao, exiba no console numero de 0 10;
+
+for(let i =0; i<=10; i++){
+console.log(i);
+}
+
+//13. exiba apenas numero pares até 20.
+
+for (let i = 0; i <= 20; i+=2) {
+    console.log(i);
+}
+
+//14. mostre no console de 10 até 1;
+
+
+
+for (let i = 10; i>0; i--) {
+    console.log(i);
+}
+
+//15.some numeros de 1 a 5
+soma = 0;
+for (let i = 1; i <= 5; i++) {
+    soma+=i;
+    console.log("valor de 1 " +i+ " valor soma")
+}
+console.log(soma)
+
+//16. faça a tabuada do 3;
+
+for (let i = 0; i <= 30; i++){
+console.log("3x" +i+ "="+3*i);
+}
+
+"or"
+for (let i = 0; i <= 30; i += 3) {
+    console.log(i);
+}
