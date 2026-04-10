@@ -50,8 +50,8 @@ let tipovariavel = 1;
 console.log(typeof tipovariavel);
 
 //10.converta numero para string.
-let convertao = 10
-console.log(typeof String(convertao))
+let convertao = 10;
+console.log(typeof String(convertao));
 
 //11. string para numero
 let text = "123";
@@ -81,9 +81,9 @@ for (let i = 10; i>0; i--) {
 soma = 0;
 for (let i = 1; i <= 5; i++) {
     soma+=i;
-    console.log("valor de 1 " +i+ " valor soma")
+    console.log("valor de 1 " +i+ " valor soma");
 }
-console.log(soma)
+console.log(soma);
 
 //16. faça a tabuada do 3;
 
@@ -92,6 +92,35 @@ console.log("3x" +i+ "="+3*i);
 }
 
 "or"
+
 for (let i = 0; i <= 30; i += 3) {
     console.log(i);
+}
+
+//17. conte quantos numero são maiores que 5
+let lista = [2,6,8,1,3];
+let cont = 0;
+
+
+for(let i = 0; i < lista.length; i++  ){
+    if(lista[i]> 5)cont++;
+
+}
+
+console.log(cont);
+
+
+//18. percorra a string letra por letra
+let palavra= "JFRS"
+
+
+for(let i =0; i < palavra.length; i++ ){
+    console.log(palavra[i]);
+}
+
+//19.pare um loop quando encontrar o numero 7 de 0 a 10
+
+for(let i = 0;i<10; i++){
+    if(i===7 )break;
+        console.log(i);
 }
