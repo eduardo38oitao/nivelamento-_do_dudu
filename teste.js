@@ -124,3 +124,58 @@ for(let i = 0;i<10; i++){
     if(i===7 )break;
         console.log(i);
 }
+
+//20. crie uma funtion que exibe uma mensagem.
+
+function mensagem(){
+    console.log("ola mundo");
+}
+mensagem();
+
+//21. crie uma funtion que multiplaca dois numeros
+
+
+function multiplaca(){
+    console.log(19*2);
+}
+multiplaca();
+
+//or
+
+function multiplacar(a,b){
+    return a * b; 
+}
+console.log(multiplacar(2,3));
+
+//22.crie uma function que verifica se é par or impar.
+
+function verificar(num){
+    return num % 2 === 0 ? "par" : "impar";
+      
+}
+console.log(verificar(10));
+
+// 23. crie uma funtion que retorne o dobro.
+
+function dobro (numero12){
+    return numero12 * 2
+}
+console.log(dobro(2));
+
+//24. crie uma funtion que some elementos de um array.
+
+function somar20(z,y,x,v){
+    return z + y + x + v
+}
+console.log(Array(somar20(1,2,3,4)))
+
+//errada
+
+function somaArray (arr){
+    total = 0;
+    for(let i =0; i<arr.length; i ++){
+        total +=arr[i];
+    }
+    return total;
+}
+console.log(somaarray([2,3,1]));
