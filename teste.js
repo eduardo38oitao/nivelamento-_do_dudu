@@ -178,4 +178,58 @@ function somaArray (arr){
     }
     return total;
 }
-console.log(somaarray([2,3,1]));
+console.log(somaArray([2,3,1]));
+
+//25. verifique se o numero 15 é positivo e exiba uma mensagem
+
+if(15 >= 0 ){
+    console.log("15 é positivo");
+}
+else{
+    console.log("seu numero é negativo");
+}
+//or
+let number = 15;
+if (number >= 0){
+    console.log(`${number} é positivo`);  //usando catenização
+}
+
+
+//26.verifique se uma pessoa é 17anos é maior e idade
+let number1 = 17
+if(number1 < 18){
+    console.log(`${number1}de menor`)
+}
+else{
+    console.log(`${number1}de maior`)
+}
+
+//or
+console.log("\n=== Maior ou menor de idade");
+let idade = 17;
+if(idade>= 18){
+    console.log("maior de idade");
+}
+else{
+    console.log("menor de idade ");
+}
+
+//27. crie um array com os numero 10, 20, 30, 40 e exiba os valores
+
+
+let numeros = [10,20,30,40];
+console.log(numeros)
+
+//28. crie um array com 5 frutas e exiba a primeira fruta
+let arr = ["morango","kiwi","manga","abacaxi","maça"];
+console.log(arr[0]);
+
+//29.adicione o numero 50 no final do array [10,20,30,40]
+let array2 = [10,20,30,40];
+array2.push(50);
+console.log(array2);
+
+//30. remove o ultimo elemento do array [1,2,3,4,5]
+let array3 = [1,2,3,4,5]
+array3.pop(5)
+console.log(array3)
