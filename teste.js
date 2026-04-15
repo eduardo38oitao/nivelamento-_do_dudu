@@ -222,7 +222,7 @@ console.log(numeros)
 
 //28. crie um array com 5 frutas e exiba a primeira fruta
 let arr = ["morango","kiwi","manga","abacaxi","maça"];
-console.log(arr[0]);
+console.log(`a primeira fruta é ${arr[0]}`);
 
 //29.adicione o numero 50 no final do array [10,20,30,40]
 let array2 = [10,20,30,40];
@@ -231,5 +231,20 @@ console.log(array2);
 
 //30. remove o ultimo elemento do array [1,2,3,4,5]
 let array3 = [1,2,3,4,5]
-array3.pop(5)
+array3.pop()
 console.log(array3)
+
+//31.exiba quantos elementos tem o array [5, 10 ,15 , 20]
+
+let elemento = [5,10,15,20,1,2]
+console.log(`o array tem ${elemento.length} elementos`)
+
+//32.some todos os numeros do array [2,4,6,8]
+let numeros10 = [2,4,6,8]
+let somarr = 0;
+for(let i = 0; i< numeros10.length; i++){
+    somarr = somarr + numeros10[i];
+}
+console.log(` A soma dos elementos é: ${somarr}`);
+
+//33. 
