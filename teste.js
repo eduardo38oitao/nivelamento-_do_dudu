@@ -243,8 +243,34 @@ console.log(`o array tem ${elemento.length} elementos`)
 let numeros10 = [2,4,6,8]
 let somarr = 0;
 for(let i = 0; i< numeros10.length; i++){
-    somarr = somarr + numeros10[i];
+    somarr = somarr + numeros10[i]; 
 }
 console.log(` A soma dos elementos é: ${somarr}`);
 
-//33. 
+///////////OBJETOS//////////////////////////
+
+//33.CRIE UM OBJETO COM NOME "ANA" E IDADE 25
+let pessoa = {
+    nome: "ana",
+    idade: 25
+};
+console.log(pessoa);
+
+//34. acesse e exiba o nome {nome: "carlos", cidade: "são paulo"}
+let humano ={
+    nome1:"Carlos",
+    cidade2: "são paulo"
+};
+console.log(`Nome: ${humano.nome1}`);
+
+//35. adicione a propriedade "curso" ao objeto {nome:"Maria", idade:20}
+let usuario= {
+    nome2: "Maria",
+    idade:20
+}
+console.log("Antes", usuario);
+usuario.curso = "Matematica";
+console.log("Depois", usuario);
+
+
+//36.
