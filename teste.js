@@ -269,4 +269,27 @@ console.log(array1222);
 //34. verifique se a fruta "laranja" existe no array ["maça","banana","uva"]
 
 let frutas = ["maça","banana","uva"]
-console.log(frutas.laranja)
+let procura = "uva";
+let achou = false;
+for(let i=0; i<frutas.length;i++){
+    if(frutas[i] == procura){
+        achou = true;
+    }
+}
+if(achou){
+    console.log(`${procura} foi encontrado`);
+}else{
+    console.log(`${procura} não foi encontrado`);
+}
+
+//35. exiba 1 por 1 os elementos do array ["Azul","Verde","Amarelo"]
+console.log("\n Exibir elementos um por um")
+let percorrer = ["Azul","Verde","Amarelo"]
+for(let i = 0; i<percorrer.length; i++ ){
+    console.log(percorrer[i]);
+}
+
+//40.exiba o ultimo elemento do array [100,200,300, 400, 500 ]
+let numeros111 = [100,200,300, 400, 500 ];
+let ultimo = numeros111 -1;
+console.log(`o ultimo elemento é: ${numeros111[ultimo]}`);
