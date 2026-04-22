@@ -243,34 +243,30 @@ console.log(`o array tem ${elemento.length} elementos`)
 let numeros10 = [2,4,6,8]
 let somarr = 0;
 for(let i = 0; i< numeros10.length; i++){
-    somarr = somarr + numeros10[i]; 
+    somarr = somarr + numeros10[i];
 }
 console.log(` A soma dos elementos é: ${somarr}`);
 
-///////////OBJETOS//////////////////////////
-
-//33.CRIE UM OBJETO COM NOME "ANA" E IDADE 25
-let pessoa = {
-    nome: "ana",
-    idade: 25
-};
-console.log(pessoa);
-
-//34. acesse e exiba o nome {nome: "carlos", cidade: "são paulo"}
-let humano ={
-    nome1:"Carlos",
-    cidade2: "são paulo"
-};
-console.log(`Nome: ${humano.nome1}`);
-
-//35. adicione a propriedade "curso" ao objeto {nome:"Maria", idade:20}
-let usuario= {
-    nome2: "Maria",
-    idade:20
+//33.multiplique cada elemento do array [1,2,3,4] por 2
+console.log("\n ==== multiplicar por 2 ====")
+let multiplo =  [1,2,3,4];
+let sum = 2 
+for(let i = 0 ; i < multiplo.length; i++){
+    sum = sum * multiplo[i];
 }
-console.log("Antes", usuario);
-usuario.curso = "Matematica";
-console.log("Depois", usuario);
+console.log(sum);
 
 
-//36.
+//or
+
+console.log("\n ==== Multiplicar por 2 ====")
+let multiplo2 = [1,2,3,4];
+let array1222 = []
+for(let i= 0;i<multiplo2.length; i++){
+    array1222.push(multiplo2[i]* 2);}
+console.log(array1222);
+
+//34. verifique se a fruta "laranja" existe no array ["maça","banana","uva"]
+
+let frutas = ["maça","banana","uva"]
+console.log(frutas.laranja)
