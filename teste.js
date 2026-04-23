@@ -289,7 +289,108 @@ for(let i = 0; i<percorrer.length; i++ ){
     console.log(percorrer[i]);
 }
 
-//40.exiba o ultimo elemento do array [100,200,300, 400, 500 ]
+//36. exiba o ultimo elemento do array [100,200,300, 400, 500 ]
 let numeros111 = [100,200,300, 400, 500 ];
 let ultimo = numeros111 -1;
 console.log(`o ultimo elemento é: ${numeros111[ultimo]}`);
+
+
+
+///////////    MATRIZ    /////////////
+
+
+
+//37.Crie uma matriz 2x2 com os numeros 1,2 na primeira linha e 3,4 na segunda
+console.log("\n criar matriz 2x2 = ")
+
+let matriz2x2 = [
+    [1,2],
+    [3,4]
+]
+             
+console.log(matriz2x2)
+
+//38. Exiba o elemento da linha 1 coluna 2 da matriz [[5,6],[7,8]]
+let matriz = [
+    [5,6],
+    [7,8]
+]
+console.log(matriz[0][1]);
+
+//39. exiba todos os elementos da matriz [[1,2,3],[4,5,6]]
+let mat = [
+    [1,2,3],
+    [4,5,6]
+]
+console.log(mat);
+
+//or 
+let mat1 = [
+    [1,2,3],
+    [4,5,6]
+];
+for(let i = 0; i<mat1.length; i++){
+for(let j =0; j<mat1[i].length ;j++){
+    console.log(`Elementos [${i}][${j}] = ${mat1[i][j]}`);
+}
+}
+
+//40. some todos numeros da matriz [[2,4],[6,8]]
+let matrizSoma =  [
+    [2,4],
+    [6,8]
+];
+let somaMatriz = 0;
+for(let i = 0; i<matrizSoma.length; i++){
+for(let j = 0; j<matrizSoma[i].length ; j++){
+    somaMatriz= somaMatriz + matrizSoma[i][j]
+   
+}
+}
+ console.log(`Soma dos elementos ${somaMatriz}`);
+
+
+
+ //41.crie uma matriz 3x3 com numeros de 1 a 9
+
+let matiti = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+];
+
+for(let i = 0; i<matiti.length; i++ ){
+console.log(matiti[i]);
+}
+    
+//42.Exiba os elementos da diagonal principal da matriz [[1,2,3],[4,5,6],[7,8,9]]
+let mamati = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+console.log(mamati[0][0])
+console.log(mamati[1][1])
+console.log(mamati[2][2])
+
+
+//antes estava errado
+let matrizDiag = [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+];
+for(let i = 0; i<matrizDiag.length; i++){
+    console.log(matrizDiag[i][i]);
+}
+
+
+
+// 43: Altere o elemento da linha 0, coluna 1 da matriz [[1,2],[3,4]] para 10
+let mamatiti = [
+    [1, 2],
+    [3, 4]
+]
+for(let i = 0; i<mamatiti.length; i++){
+console.log(mamatiti())
+}
