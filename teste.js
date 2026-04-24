@@ -382,7 +382,7 @@ let matrizDiag = [
 ];
 for(let i = 0; i<matrizDiag.length; i++){
     console.log(matrizDiag[i][i]);
-}
+};
 
 
 
@@ -390,7 +390,39 @@ for(let i = 0; i<matrizDiag.length; i++){
 let mamatiti = [
     [1, 2],
     [3, 4]
-]
-for(let i = 0; i<mamatiti.length; i++){
-console.log(mamatiti())
-}
+];
+console.log("antes" , mamatiti);
+mamatiti [0] [1]= 10;
+console.log("depois", mamatiti);
+
+//44. Exiba apenas a primeira linha da matriz [[10,20],[30,40],[50,60]]
+let matia = [
+    [10, 20],
+    [30, 40], 
+    [50, 60]];
+
+console.log (matia[0]);
+
+
+// 45. Exiba apenas os elementos da primeira coluna da matriz [[1,2],[3,4],[5,6]]
+let matrizexiba = [[1, 2], [3, 4], [5, 6]];
+
+
+
+// 46. Multiplique todos os elementos da matriz [[1,2],[3,4]] por 2
+let matriz2x = [[1, 2], [3, 4]];
+let valorrr = [];
+for(let i = 0; i<matriz2x.length; i++ ){
+    valorrr[i] = []
+    for(let j =0; j<matriz2x[i].length; j++){
+        valorrr[i][j] = matriz2x[i][j] * 2
+    };
+};
+console.log(`normal: ${matriz2x}`);
+console.log(`multiplado: ${valorrr}`);
+
+
+
+////////////////// objetos ////////////////////////
+
+// 47. Exiba todas as propriedades do objeto {marca: "Nike", tamanho: 42, cor: "preto"}
