@@ -477,10 +477,10 @@ let preco = [10,30,50,60];
 let vazio = 0
 preco.forEach(function(n){
     vazio = vazio+n
-    console.log(vazio)
+    
 
 
-});
+});console.log(vazio)
 
 preco.forEach(n => console.log(n))
 
