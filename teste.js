@@ -491,9 +491,36 @@ preco.forEach(n => console.log(n))
 
 
 
+// some todo os valores e mostre o reusltado 
+// preços 10, 30,50,60:
+console.log("for:")
+let laele = [10,30,50,60];
+let numberO = 0;
+
+for(i = 0; i<laele.length; i++){
+    numberO += laele[i];
+}
+console.log(numberO);
+
+
+// forEach()
+console.log("forEach com seta:")
+let somas = 0;
+laele.forEach(n => somas += n);
+console.log(somas)
 
 
 
-////////////////// objetos ////////////////////////
 
-// 47. Exiba todas as propriedades do objeto {marca: "Nike", tamanho: 42, cor: "preto"}
+
+// mostre os pares
+// [1,2,3,4,5,6,7,8];
+
+console.log("for")
+
+let pap = [1,2,3,4,5,6,7,8];
+for (i=0; i<pap.length; i++){
+    if(pap[i] % 2 === 0)console.log(pap[i])
+}
+
+
